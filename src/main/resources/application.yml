@@ -1,0 +1,7 @@
+spring:
+  application:
+    name:
+      hot-place
+  main:
+    allow-bean-definition-overriding: true
+    web-application-type: reactive
