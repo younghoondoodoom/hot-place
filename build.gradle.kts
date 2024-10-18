@@ -33,6 +33,7 @@ dependencies {
     testImplementation("io.projectreactor:reactor-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test")
 
     implementation("org.springdoc:springdoc-openapi-starter-webflux-ui:2.1.0")
     implementation("org.springdoc:springdoc-openapi-starter-webflux-api:2.1.0")
